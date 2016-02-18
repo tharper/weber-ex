@@ -1,0 +1,63 @@
+body {
+  background-image: url("bkg.png");
+  background-repeat: repeat;
+}
+
+.trump{
+  position: fixed;
+  left:0px;
+  top: 0px;
+}
+.float-left {
+  float: left;
+  margin-right: 15px;
+
+}
+
+#mainContainter {
+  background: #fff;
+  width: 900px;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 15px;
+
+}
+
+.columnA{
+  width:600px;
+  float: left;
+  margin-right: 20px;
+
+
+}
+
+.columnB {
+  width: 250px;
+  float: left;
+
+}
+
+figure {
+  position: relative;
+  width: 250px;
+  float: left;
+  margin-right: 15px;
+
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0px;
+  background-color: #333;
+  color: #fff;
+  width: inherit;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.overlay{
+  position: absolute;
+  top: 0px;
+  right:0px;
+
+}
